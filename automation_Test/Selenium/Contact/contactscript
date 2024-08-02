@@ -1,0 +1,217 @@
+{
+  "id": "a0a194b7-88a0-4e9b-b062-da825bcd86ed",
+  "version": "2.0",
+  "name": "BookShop",
+  "url": "http://localhost",
+  "tests": [{
+    "id": "70079efc-e076-4cfb-b58b-cd073d4707f2",
+    "name": "contact message",
+    "commands": [{
+      "id": "5ba34080-4f17-4e27-971d-ba1a80795dd3",
+      "comment": "",
+      "command": "open",
+      "target": "/project/login.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3f2693ae-af4f-4c7d-b1e1-8e20a6bc19d4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3471cc29-a691-454f-bbca-5da8771ba2ab",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.box:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cb368b96-641d-4ce1-9d66-abaeb57d014b",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.box:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "dulshanuser@gmail.com"
+    }, {
+      "id": "56109000-cb9b-4c82-a694-5dede19958c9",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.box:nth-child(3)", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "230d2395-1226-4980-82c9-e7fd157c734c",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.box:nth-child(3)", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "12345"
+    }, {
+      "id": "1de2d9e7-5f98-4177-8d9c-49566dd32aa4",
+      "comment": "",
+      "command": "click",
+      "target": "name=submit",
+      "targets": [
+        ["name=submit", "name"],
+        ["css=.btn", "css:finder"],
+        ["xpath=//input[@name='submit']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "824e28fb-ee1f-4cb5-97d2-c9afd50bc269",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Contact",
+      "targets": [
+        ["linkText=Contact", "linkText"],
+        ["css=.navbar > a:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'Contact')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'contact.php')]", "xpath:href"],
+        ["xpath=//nav/a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'Contact')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "271a8b0e-528b-47d2-81e5-9be9d5b2e76f",
+      "comment": "",
+      "command": "click",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=form > .box:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "74831c33-80bd-40e2-af0f-3dfcc8a2371a",
+      "comment": "",
+      "command": "type",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=form > .box:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "dulshan chamika"
+    }, {
+      "id": "6b5ce1f2-9734-4f18-87ef-f38f72579b30",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=form > .box:nth-child(3)", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1de30afd-e9b1-4249-a6ab-c91d0c0ae847",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=form > .box:nth-child(3)", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "dulshanuser@gmail.com"
+    }, {
+      "id": "631169ff-1be6-4651-acdc-e6e53eb274ca",
+      "comment": "",
+      "command": "click",
+      "target": "name=number",
+      "targets": [
+        ["name=number", "name"],
+        ["css=form > .box:nth-child(4)", "css:finder"],
+        ["xpath=//input[@name='number']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "263f4ade-c012-48e9-8dba-09dafb7ae527",
+      "comment": "",
+      "command": "type",
+      "target": "name=number",
+      "targets": [
+        ["name=number", "name"],
+        ["css=form > .box:nth-child(4)", "css:finder"],
+        ["xpath=//input[@name='number']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": "0706545676"
+    }, {
+      "id": "c028e193-0484-4b17-8e8c-c66e0dae06b1",
+      "comment": "",
+      "command": "click",
+      "target": "name=message",
+      "targets": [
+        ["name=message", "name"],
+        ["css=.box:nth-child(5)", "css:finder"],
+        ["xpath=//textarea[@id='']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "682bc20c-9a79-4f87-adf5-72ad8d3cad31",
+      "comment": "",
+      "command": "type",
+      "target": "name=message",
+      "targets": [
+        ["name=message", "name"],
+        ["css=.box:nth-child(5)", "css:finder"],
+        ["xpath=//textarea[@id='']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Your Bookstore looks very good. "
+    }, {
+      "id": "b96ddc87-4f8f-43ce-8172-1f4f289b2aca",
+      "comment": "",
+      "command": "click",
+      "target": "name=send",
+      "targets": [
+        ["name=send", "name"],
+        ["css=.btn", "css:finder"],
+        ["xpath=//input[@name='send']", "xpath:attributes"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "bedfe949-b6b4-49e0-8ec4-561e74629ed5",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["70079efc-e076-4cfb-b58b-cd073d4707f2"]
+  }],
+  "urls": ["http://localhost/"],
+  "plugins": []
+}
