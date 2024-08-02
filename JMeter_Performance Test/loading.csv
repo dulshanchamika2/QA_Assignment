@@ -1,0 +1,12 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1.72262E+12,49,SignUpRequest,200,OK,Thread Group 1-1,text,TRUE,,1510,131,1,1,http://localhost/project/register.php,40,0,15
+1.72262E+12,53,LoginRequest,200,OK,Thread Group 1-1,text,TRUE,,1318,128,1,1,http://localhost/project/login.php,53,0,0
+1.72262E+12,10,adminProductRequest,200,OK,Thread Group 1-1,text,TRUE,,4744,265,1,1,http://localhost/project/login.php,6,0,0
+1.72262E+12,6,adminProductRequest-0,302,Found,Thread Group 1-1,text,TRUE,,3426,137,1,1,http://localhost/project/admin_products.php,6,0,0
+1.72262E+12,3,adminProductRequest-1,200,OK,Thread Group 1-1,text,TRUE,,1318,128,1,1,http://localhost/project/login.php,3,0,0
+1.72262E+12,28,userHomePageRequest,200,OK,Thread Group 1-1,text,TRUE,,7688,255,1,1,http://localhost/project/login.php,26,0,0
+1.72262E+12,26,userHomePageRequest-0,302,Found,Thread Group 1-1,text,TRUE,,6370,127,1,1,http://localhost/project/home.php,26,0,0
+1.72262E+12,2,userHomePageRequest-1,200,OK,Thread Group 1-1,text,TRUE,,1318,128,1,1,http://localhost/project/login.php,2,0,0
+1.72262E+12,28,contactRequest,200,OK,Thread Group 1-1,text,TRUE,,6484,258,1,1,http://localhost/project/login.php,3,0,0
+1.72262E+12,3,contactRequest-0,302,Found,Thread Group 1-1,text,TRUE,,5166,130,1,1,http://localhost/project/contact.php,3,0,0
+1.72262E+12,25,contactRequest-1,200,OK,Thread Group 1-1,text,TRUE,,1318,128,1,1,http://localhost/project/login.php,25,0,0
